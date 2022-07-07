@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiuYaoCong</title>
+    <style>
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+        .dh{
+            width: 100%;
+            height: 200px;
+            background-color: rgb(74, 74, 74);
+        }
+
+        .dh ul{
+            height: 341px;
+            width: 100%;
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .dh ul li{
+            
+            background-color: black;
+            padding: 10px 80px 20px 80px;
+            float: left;
+            list-style: none;
+            color: rgb(227, 223, 223);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dh">
+    <ul>
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>Workspace</li></a>
+        <a href="#"><li>Social</li></a>
+        <a href="#"><li>Profile</li></a>
+    </ul>
+    </div>
+</body>
+</html>
